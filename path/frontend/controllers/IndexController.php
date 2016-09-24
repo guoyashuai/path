@@ -14,7 +14,6 @@ class IndexController extends \yii\web\Controller
         date_default_timezone_set('PRC');
         $date=date('Y-m-d');
 //         echo $date;die;
-//        echo $a;die;
 //        echo $date;die;
 //        $day=$_GET['day'];
         //echo $qian;die;
