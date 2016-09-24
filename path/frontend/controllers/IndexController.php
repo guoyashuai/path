@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 namespace frontend\controllers;
 use Yii;
@@ -13,18 +13,9 @@ class IndexController extends \yii\web\Controller
         $qian=$_GET['qian'];
         date_default_timezone_set('PRC');
         $date=date('Y-m-d');
-       // $time1=date('Y-m-d');
-        //$time2=date('Y-m-d');
+     
 //        $a=time();
 //        echo $a;die;
-//        echo $time;die;
-//        $time='2016-07-30';//1469808000  1469721600  1469808000 31:1469894400 1469721600
-       // $end=strtotime($time);
-//        echo $end;die;//1469894400
-       //$date=strtotime($time1);
-        //$one_time=strtotime($time2);
-//        echo $one_time;die;//1469894400//1470240000
-//        echo $end;die;//1469721600
 //        echo $date;die;
 //        $day=$_GET['day'];
         //echo $qian;die;
@@ -37,6 +28,8 @@ class IndexController extends \yii\web\Controller
             echo 1;die;
 //        }else if($command['time']==$end+(24*3600)){
 ////            $day=$command['day']+1;
+
+
 ////            $arr = $connection->createCommand("UPDATE yue SET `day`=1,qian=1,jifen=1,lian=1,`time`=$date WHERE id=$command[id]")->execute();
 //            $arr = $connection->createCommand("UPDATE yue SET `day`=$qian+1,qian=$qian+1,jifen=$command[jifen]+$command[qian]+1,lian=$command[lian]+1,`time`=$date WHERE id=$command[id]")->execute();
 ////          $arr = $connection->createCommand("UPDATE yue SET `day`=$command[day]+1,qian=$command[qian]*2,jifen=$command[jifen]+$command[qian]+1,lian=$command[lian]+1,`time`=$date WHERE id=$command[id]")->execute();
