@@ -13,8 +13,7 @@ class IndexController extends \yii\web\Controller
         $qian=$_GET['qian'];
         date_default_timezone_set('PRC');
         $date=date('Y-m-d');
-     
-//        $a=time();
+//         echo $date;die;
 //        echo $a;die;
 //        echo $date;die;
 //        $day=$_GET['day'];
@@ -24,13 +23,10 @@ class IndexController extends \yii\web\Controller
 //        echo $end+(24*2*3600);die;//1470240000
 //        echo $command['time']+(24*3600);die;//1470240000   1470585600
 //        print_r($command);die;
-        if($posts['time']==$date){
+       if($posts['time']==$date){
             echo 1;die;
 //        }else if($command['time']==$end+(24*3600)){
 ////            $day=$command['day']+1;
-
-
-////            $arr = $connection->createCommand("UPDATE yue SET `day`=1,qian=1,jifen=1,lian=1,`time`=$date WHERE id=$command[id]")->execute();
 //            $arr = $connection->createCommand("UPDATE yue SET `day`=$qian+1,qian=$qian+1,jifen=$command[jifen]+$command[qian]+1,lian=$command[lian]+1,`time`=$date WHERE id=$command[id]")->execute();
 ////          $arr = $connection->createCommand("UPDATE yue SET `day`=$command[day]+1,qian=$command[qian]*2,jifen=$command[jifen]+$command[qian]+1,lian=$command[lian]+1,`time`=$date WHERE id=$command[id]")->execute();
 ////           print_r($arr);die;
