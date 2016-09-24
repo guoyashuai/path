@@ -15,8 +15,8 @@ class IndexController extends \yii\web\Controller
         $date=date('Y-m-d');
 //         echo $date;die;
 //        echo $a;die;
-//        echo $date;die;
-//        $day=$_GET['day'];
+
+
         //echo $qian;die;
         $connection = \Yii::$app->db;
         $posts = $connection->createCommand('SELECT * FROM yue')->queryOne();
